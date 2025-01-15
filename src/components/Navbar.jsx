@@ -12,8 +12,8 @@ const Navbar = () => {
                     className="h-20" // Adjust the height as needed
                 />
             </div>
-            <div className='flex items-center justify-between space-x-4'>
-                <div className=" space-x-4 md:space-x-10 font-semibold text-sm md:text-base ">
+            <div className='flex items-center justify-between space-x-8'>
+                <div className=" space-x-4 md:space-x-10 font-semibold text-sm md:text-base pb-1">
                     <a href="team" >TEAM</a>
                     <a href="events" >EVENTS</a>
                     {/* <a href="#events" >ABOUT US</a> */}
