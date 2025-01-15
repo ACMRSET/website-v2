@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Home from './pages/home/Home'
-
+import Team from './pages/team/Team'
+import { Events } from './pages/events/Events'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 
@@ -10,10 +12,18 @@ function App() {
 
     return (
         <>
-            <Home />
-            <h1 className="text-3xl font-bold underline">
-                Hello acm pepls
-            </h1>
+            <BrowserRouter>
+                <Routes>
+
+                    <Route index element={<Home />} />
+                    <Route path="/home" element={<Home />} />
+                    <Route path="/team" element={<Team />} />
+                    <Route path="/events" element={<Events />} />
+
+
+                </Routes>
+            </BrowserRouter>
+
         </>
     )
 }

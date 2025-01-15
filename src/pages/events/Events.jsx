@@ -1,16 +1,14 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
-import HeroSection from './HeroSection'
 import Footer from '../../components/Footer'
 
-const Home = () => {
+export const Events = () => {
     return (
         <div>
             <Navbar />
-            <HeroSection />
+
+            events section
             <Footer />
         </div>
     )
 }
-
-export default Home

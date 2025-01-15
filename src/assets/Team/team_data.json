@@ -1,0 +1,24 @@
+{
+    "teams": [
+      {
+        "id": "tech",
+        "name": "Tech Team",
+        "description": "The Tech Team is responsible for all the technical aspects of the project, including development, deployment, and maintenance of the app."
+      },
+      {
+        "id": "creative",
+        "name": "Creative Team",
+        "description": "The Creative Team focuses on designing the user interface and user experience, ensuring the project is visually appealing and user-friendly."
+      },
+      {
+        "id": "oqpr",
+        "name": "OQPR Team",
+        "description": "The OQPR Team handles operations, quality assurance, and process reviews to ensure the product is efficient and meets all standards."
+      },
+      {
+        "id": "design",
+        "name": "Design Team",
+        "description": "The Design Team is in charge of branding, marketing materials, and creating the visual identity of the company."
+      }
+    ]
+  }
