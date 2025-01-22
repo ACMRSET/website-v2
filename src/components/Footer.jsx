@@ -3,7 +3,7 @@ import acmlogo from './../assets/acm-logo-white.png'
 import rajagirilogo from './../assets/rajagiri-white.png'
 const Footer = () => {
     return (
-        <div className='bg-black text-white py-12 border-white border-2 flex justify-between overflow-hidden '>
+        <div className='bg-black text-white py-12 flex justify-between overflow-hidden '>
             <div className='flex space-x-4'>
                 <div className='flex-shrink-0 hidden md:block'>
                     <img

@@ -4,7 +4,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='bg-black h-24 w-full px-8 py-2 flex text-slate-100 justify-between items-center border-b-2 border-white'>
+        <div className='bg-black h-24 w-full px-8 py-2 flex text-slate-100 justify-between items-center border-b-2 border-blue-900'>
             <div className='flex-shrink-0'>
                 <a href="/">
                     <img
