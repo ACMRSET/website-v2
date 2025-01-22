@@ -42,7 +42,7 @@ const Team = () => {
                     <p className="mb-6">{activeTeamData.description}</p>
 
                     {/* Members List */}
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="md:grid md:grid-cols-2 md:gap-4  flex-col space-y-2">
                         {activeTeamData.members.map((member, index) => (
                             <div key={index} className="bg-gray-800 p-4 rounded-lg">
                                 <img

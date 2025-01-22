@@ -6,11 +6,13 @@ const Navbar = () => {
     return (
         <div className='bg-black h-24 w-full px-8 py-2 flex text-slate-100 justify-between items-center border-b-2 border-white'>
             <div className='flex-shrink-0'>
-                <img
-                    src={logo}
-                    alt="Logo"
-                    className="h-20" // Adjust the height as needed
-                />
+                <a href="/">
+                    <img
+                        src={logo}
+                        alt="Logo"
+                        className="h-20" // Adjust the height as needed
+                    />
+                </a>
             </div>
             <div className='flex items-center justify-between space-x-8'>
                 <div className=" space-x-4 md:space-x-10 font-semibold text-sm md:text-base pb-1">
