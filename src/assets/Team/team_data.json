@@ -2,7 +2,7 @@
     "teams": [
       {
         "id": "1",
-        "name": "Tech",
+        "name": "Core",
         "description": "The Tech team focuses on development and innovation.",
         "members": [
           {
@@ -33,7 +33,148 @@
             "image": "/assets/images/creative/bob_brown.jpg"
           }
         ]
+      },
+      {
+        "id": "3",
+        "name": "Quality and Operations",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Finance",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
       }
+      ,
+      {
+        "id": "5",
+        "name": "Documentation",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Women Innovation",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
+      }
+      ,
+      {
+        "id": "7",
+        "name": "Marketing",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
+      }
+      ,
+      {
+        "id": "8",
+        "name": "Media",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "Public relations",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
+      }
+      ,
+      {
+        "id": "10",
+        "name": "Creative",
+        "description": "The Creative team handles design and content creation.",
+        "members": [
+          {
+            "name": "Alice Johnson",
+            "role": "Graphic Designer",
+            "image": "/assets/images/creative/alice_johnson.jpg"
+          },
+          {
+            "name": "Bob Brown",
+            "role": "Video Editor",
+            "image": "/assets/images/creative/bob_brown.jpg"
+          }
+        ]
+      }
+
     ]
   }
   
