@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import teamsData from "../../assets/Team/team_data.json";
 
+
 const Team = () => {
     // State to track the currently active team
     const [activeTeam, setActiveTeam] = useState(teamsData.teams[0].id);

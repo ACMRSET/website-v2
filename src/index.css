@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 
-
-
-
 :root  {
+
+    font-family:  Arial, Helvetica, sans-serif ;
+
     --background: 227 100% 95%;
     --foreground: 227 5% 6%;
     --card: 227 50% 90%;

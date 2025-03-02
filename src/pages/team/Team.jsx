@@ -42,13 +42,13 @@ const Team = () => {
                     <p className="mb-6">{activeTeamData.description}</p>
 
                     {/* Members List */}
-                    <div className="md:grid md:grid-cols-2 md:gap-4  flex-col space-y-2">
+                    <div className="md:grid md:grid-cols-2 md:gap-4  flex-col space-y-2" >
                         {activeTeamData.members.map((member, index) => (
-                            <div key={index} className="bg-gray-800 p-4 rounded-lg">
+                            <div key={index} className="bg-gray-800 p-4 rounded-lg w-80">
                                 <img
                                     src={member.image}
                                     alt={member.name}
-                                    className="w-full h-32 object-cover rounded-lg mb-2"
+                                    className="w-full h-80 object-fit rounded-lg mb-2"
                                 />
                                 <h3 className="text-lg font-bold">{member.name}</h3>
                                 <p className="text-sm text-gray-400">{member.role}</p>

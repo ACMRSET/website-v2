@@ -23,9 +23,9 @@
         "description": "The Creative team handles design and content creation.",
         "members": [
           {
-            "name": "Alice Johnson",
+            "name": "Nikhil",
             "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "image": "src/assets/Team/creative/nikhil.jpg"
           },
           {
             "name": "Bob Brown",
