@@ -16,7 +16,7 @@ const Footer = () => {
                     <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
                     <div className="flex-col justify-center space-x-6">
                         <a
-                            href="https://www.instagram.com"
+                            href="https://www.instagram.com/acm_rset?igsh=ZjQzdGVsZzVnZ2tv"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-pink-500 transition-transform transform hover:scale-110"
@@ -27,12 +27,12 @@ const Footer = () => {
                                     alt="Instagram"
                                     className="w-10 h-10 m-2"
                                 />
-                                instagram_id
+                                acm_rset
                             </div>
 
 
                         </a>
-                        <a
+                        {/* <a
                             href="https://www.linkedin.com"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -46,15 +46,15 @@ const Footer = () => {
                                 />
                                 linken_id
                             </div>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <div className="bg-slate-950 text-gray-200 max-w-sm p-6 rounded-lg shadow-lg ">
                     <div className=" text-center flex-col space-y-3">
                         <h2 className="text-xl font-semibold">Contact Us</h2>
                         <div>
-                            <h2 className="text-xl font-semibold">John Doe</h2>
-                            <p className="text-sm text-gray-400">johndoe@example.com</p>
+                            <h2 className="text-xl font-semibold">Binu A</h2>
+                            <p className="text-sm text-gray-400">binu_a@rajagiritech.edu.in</p>
                         </div>
                     </div>
                 </div>

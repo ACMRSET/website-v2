@@ -3,178 +3,248 @@
       {
         "id": "1",
         "name": "Core",
-        "description": "The Tech team focuses on development and innovation.",
+        "description": "The Core team leads the ACM chapter, ensuring smooth coordination and vision.",
         "members": [
           {
-            "name": "John Doe",
-            "role": "Frontend Developer",
-            "image": "/assets/images/tech/john_doe.jpg"
+            "name": "Nikhil Stephen",
+            "role": "Chair",
+            "image": "src/assets/Team/core/nikhil-core.jpg"
           },
           {
-            "name": "Jane Smith",
-            "role": "Backend Developer",
-            "image": "/assets/images/tech/jane_smith.jpg"
+            "name": "Rachel Jacob",
+            "role": "Vice Chair",
+            "image": "src/assets/Team/core/rachel-core.jpg"
+          },
+          {
+            "name": "Gautham C Sudheer",
+            "role": "Secretary",
+            "image": "src/assets/Team/core/gautham-core.jpg"
+          },
+          {
+            "name": "Niveditha B",
+            "role": "Joint Secretary",
+            "image": "src/assets/Team/core/niveditha-core.jpg"
+          },
+          {
+            "name": "Kevin Jacob",
+            "role": "Joint Secretary",
+            "image": "src/assets/Team/core/kevin-core.jpg"
+          },
+          {
+            "name": "EH Hrithika",
+            "role": "Treasurer",
+            "image": "src/assets/Team/core/hrithika-core.jpg"
           }
         ]
       },
       {
         "id": "2",
         "name": "Creative",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Creative team brings ideas to life through visuals, branding, and content.",
         "members": [
           {
-            "name": "Nikhil",
-            "role": "Graphic Designer",
-            "image": "src/assets/Team/creative/nikhil.jpg"
+            "name": "Nandhana Suffin",
+            "role": "S8 CS Gamma",
+            "image": "src/assets/Team/creative/suffin-creative.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Alen Abhraham",
+            "role": "S4 CS Alpha",
+            "image": "src/assets/Team/creative/alen-creative.jpg"
+          },
+          {
+            "name": "Anandhapadmanabhan",
+            "role": "S4 CS Alpha",
+            "image": "src/assets/Team/creative/anandhu-creative.jpg"
           }
         ]
       },
       {
         "id": "3",
         "name": "Quality and Operations",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Quality and Operations team ensures events run smoothly and efficiently.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Sandra Kurien",
+            "role": "S6 CS Gamma",
+            "image": "src/assets/Team/qo/sandra-qo.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Rinu Tony",
+            "role": "S6 CS Gamma",
+            "image": "src/assets/Team/qo/rinu-qo.jpg"
+          },
+          {
+            "name": "Gautham Girish",
+            "role": "S4 CS Beta",
+            "image": "src/assets/Team/qo/gautham-qo.jpg"
           }
         ]
       },
       {
         "id": "4",
         "name": "Finance",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Finance team manages budgets, funding, and all financial operations for ACM.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Ayyappadas S",
+            "role": "S4 CS Alpha",
+            "image": "src/assets/Team/finance/ayyappadas-finance.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "John S",
+            "role": "S6 CS Beta",
+            "image": "src/assets/Team/finance/john-finance.jpg"
+          },
+          {
+            "name": "Eva Elizabeth",
+            "role": "S4 CS Beta",
+            "image": "src/assets/Team/finance/eva-finance.jpg"
           }
         ]
-      }
-      ,
+      },
       {
         "id": "5",
         "name": "Documentation",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Documentation team maintains records, reports, and communications for ACM.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Nikita Alex",
+            "role": "S8 CS Gamma",
+            "image": "src/assets/Team/documentation/nikita-doc.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Junit Sarah",
+            "role": "S4 CS Beta",
+            "image": "src/assets/Team/documentation/junit-doc.jpg"
+          },
+          {
+            "name": "Giribala Arun",
+            "role": "S6 CS Beta",
+            "image": "src/assets/Team/documentation/giribala-doc.jpg"
+          },
+          {
+            "name": "Ann Catherine",
+            "role": "S6 CS Alpha",
+            "image": "src/assets/Team/documentation/ann-doc.jpg"
           }
         ]
       },
       {
         "id": "6",
         "name": "Women Innovation",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Women Innovation team empowers female voices through tech-driven initiatives.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Nikhitha Konnikkara",
+            "role": "S6 CS Gamma",
+            "image": "src/assets/Team/women/nikhitha-women.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Malavika R",
+            "role": "S4 CS Beta",
+            "image": "src/assets/Team/women/malavika-women.jpg"
+          },
+          {
+            "name": "Maria Elsha Thomas",
+            "role": "S4 CS Beta",
+            "image": "src/assets/Team/women/maria-women.jpg"
           }
         ]
-      }
-      ,
+      },
       {
         "id": "7",
         "name": "Marketing",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Marketing team promotes ACM activities and engages the community.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Jaice Joshy",
+            "role": "S6 CS Beta",
+            "image": "src/assets/Team/marketing/jaice-marketing.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Devamanas S",
+            "role": "S4 CS Beta",
+            "image": "src/assets/Team/marketing/devamanas-marketing.jpg"
+          },
+          {
+            "name": "Emi Treesa Jayan",
+            "role": "S4 IT",
+            "image": "src/assets/Team/marketing/emi-marketing.jpg"
           }
         ]
-      }
-      ,
+      },
       {
         "id": "8",
         "name": "Media",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Media team captures, edits, and archives memories of ACM events.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Sandra Anna Priyan",
+            "role": "S5 CS Gamma",
+            "image": "src/assets/Team/media/sandra-media.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Benito Bitto",
+            "role": "S4 CS Alpha",
+            "image": "src/assets/Team/media/benito-media.jpg"
+          },
+          {
+            "name": "Rahul Rathishkumar",
+            "role": "S5 CS Gamma",
+            "image": "src/assets/Team/media/rahul-media.jpg"
           }
         ]
       },
       {
         "id": "9",
         "name": "Public relations",
-        "description": "The Creative team handles design and content creation.",
+        "description": "The Public Relations team builds ACM's image through outreach and collaboration.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Ananya Merlyn George",
+            "role": "S3 AD",
+            "image": "src/assets/Team/pr/ananya-pr.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Allen Issac",
+            "role": "S4 CS Alpha",
+            "image": "src/assets/Team/pr/allen-pr.jpg"
+          },
+          {
+            "name": "Jeremy Simon Moncey",
+            "role": "S5 AD",
+            "image": "src/assets/Team/pr/jeremy-pr.jpg"
           }
         ]
-      }
-      ,
+      },
       {
         "id": "10",
-        "name": "Creative",
-        "description": "The Creative team handles design and content creation.",
+        "name": "Tech",
+        "description": "The Tech team develops, maintains, and drives innovation through ACM's digital platforms.",
         "members": [
           {
-            "name": "Alice Johnson",
-            "role": "Graphic Designer",
-            "image": "/assets/images/creative/alice_johnson.jpg"
+            "name": "Nandana A Dev",
+            "role": "S8 CS Gamma",
+            "image": "src/assets/Team/tech/nandanaadev-tech.jpg"
           },
           {
-            "name": "Bob Brown",
-            "role": "Video Editor",
-            "image": "/assets/images/creative/bob_brown.jpg"
+            "name": "Rohan Raghavan",
+            "role": "S8 CS Gamma",
+            "image": "src/assets/Team/tech/rohanr-tech.jpg"
+          },
+          {
+            "name": "Abhishikth S",
+            "role": "S4 CS Alpha",
+            "image": "src/assets/Team/tech/abhishikth-tech.jpg"
+          },
+          {
+            "name": "Noahan Zachariah",
+            "role": "S4 CS Gamma",
+            "image": "src/assets/Team/tech/novan-tech.jpg"
           }
         ]
       }
-
     ]
   }
   

@@ -1,0 +1,19 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "title": "The Scratch-Dash-Relay",
+        "date": "30 August 2024",
+        "image": "src/assets/events/scratchdash-event.jpg",
+        "type": "past"
+      },
+      {
+        "id": 2,
+        "title": "Resu-Made",
+        "date": "4 October 2024",
+        "image": "src/assets/events/resumade-event.jpg",
+        "type": "past"
+      }
+    ]
+  }
+  

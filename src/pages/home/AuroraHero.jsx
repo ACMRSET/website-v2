@@ -9,7 +9,7 @@ import {
     animate,
 } from "framer-motion";
 
-const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+const COLORS_TOP = ["#13FFAA", "#1E67C6"];
 
 export const AuroraHero = () => {
     const color = useMotionValue(COLORS_TOP[0]);
@@ -23,7 +23,7 @@ export const AuroraHero = () => {
         });
     }, []);
 
-    const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #020617 50%, ${color})`;
+    const backgroundImage = useMotionTemplate`radial-gradient(300% 125% at 50% 100%, #020617 40%, ${color})`;
     const border = useMotionTemplate`1px solid ${color}`;
     const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
 
@@ -44,27 +44,30 @@ export const AuroraHero = () => {
                 <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
                     ACM Student Chapter Rajagiri
                 </p>
-                <motion.button
-                    style={{
-                        border,
-                        boxShadow,
-                    }}
-                    whileHover={{
-                        scale: 1.015,
-                    }}
-                    whileTap={{
-                        scale: 0.985,
-                    }}
-                    className="group relative flex w-fit items-center gap-1.5 rounded-full text-xl font-bold bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
-                >
-                    Join Us
-                    <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
-                </motion.button>
+                <a href="https://www.acm.org/membership/join" type='button' target="_blank"
+                    rel="noopener noreferrer">
+                    <motion.button
+                        style={{
+                            border,
+                            boxShadow,
+                        }}
+                        whileHover={{
+                            scale: 1.015,
+                        }}
+                        whileTap={{
+                            scale: 0.985,
+                        }}
+                        className="group relative flex w-fit items-center gap-1.5 rounded-full text-xl font-bold bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+                    >
+                        Join Us
+                        <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
+                    </motion.button>
+                </a>
             </div>
 
             <div className="absolute inset-0 z-0">
                 <Canvas>
-                    <Stars radius={50} count={2500} factor={4} fade speed={2} />
+                    <Stars radius={100} count={2500} factor={4} fade speed={3} />
                 </Canvas>
             </div>
         </motion.section>

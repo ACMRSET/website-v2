@@ -16,18 +16,17 @@ const Team = () => {
     const activeTeamData = getActiveTeamData(activeTeam);
 
     return (
-        <div>
-            <Navbar />
+        <div >
             <div className="text-white min-h-screen flex">
                 {/* Left Sidebar */}
-                <div className="bg-gray-800 w-1/4 p-4">
-                    <h1 className="text-3xl text-center mb-6">Our Teams</h1>
+                <div className=" w-1/4 p-0 md:p-6 m-4 rounded-xl bg-white/10 border border-white/20 backdrop-blur-lg text-sm lg:text-lg">
+                    <h1 className="text-xl md:text-3xl text-center mb-6">Our Teams</h1>
                     <ul>
                         {teamsData.teams.map((team) => (
                             <li
                                 key={team.id}
                                 onClick={() => setActiveTeam(team.id)}
-                                className={`cursor-pointer py-2 px-2 ${team.id === activeTeam ? 'bg-gray-700' : ''
+                                className={`cursor-pointer text-center py-2 px-4 rounded-xl transition-colors e ${team.id === activeTeam ? 'bg-blue-600 bg-opacity-50' : 'hover:bg-white/10'
                                     } hover:bg-gray-700`}
                             >
                                 {team.name}
@@ -37,18 +36,20 @@ const Team = () => {
                 </div>
 
                 {/* Right Content Area */}
-                <div className="w-3/4 p-8">
-                    <h2 className="text-2xl mb-4">{activeTeamData.name}</h2>
-                    <p className="mb-6">{activeTeamData.description}</p>
+                <div className="w-3/4 p-2 lg-p-8">
+                    <div className="mb-8 bg-white/10 border border-white/20 backdrop-blur-lg rounded-xl p-6 shadow-lg">
+                        <h2 className="text-3xl font-bold mb-2">{activeTeamData.name}</h2>
+                        <p className="text-gray-200">{activeTeamData.description}</p>
+                    </div>
 
                     {/* Members List */}
-                    <div className="md:grid md:grid-cols-2 md:gap-4  flex-col space-y-2" >
+                    <div className="lg:grid lg:grid-cols-3 lg:gap-2 flex-col space-y-2 " >
                         {activeTeamData.members.map((member, index) => (
-                            <div key={index} className="bg-gray-800 p-4 rounded-lg w-80">
+                            <div key={index} className="bg-gray-800 p-4 rounded-lg w-52 lg:w-72 bg-white/10 border border-white/20 backdrop-blur-md">
                                 <img
                                     src={member.image}
                                     alt={member.name}
-                                    className="w-full h-80 object-fit rounded-lg mb-2"
+                                    className="w-full h-52 lg:h-72 object-cover rounded-lg mb-2"
                                 />
                                 <h3 className="text-lg font-bold">{member.name}</h3>
                                 <p className="text-sm text-gray-400">{member.role}</p>
@@ -57,7 +58,6 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 };

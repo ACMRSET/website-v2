@@ -5,6 +5,9 @@ import Team from './pages/team/Team'
 import { Events } from './pages/events/Events'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Team2 from './pages/team/Team2'
+import Footer from './components/Footer'
+
+
 
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
     return (
         <>
             <BrowserRouter>
+                <Navbar />
                 <Routes>
 
                     <Route index element={<Home />} />
@@ -22,6 +26,7 @@ function App() {
 
 
                 </Routes>
+                <Footer />
             </BrowserRouter>
 
         </>
